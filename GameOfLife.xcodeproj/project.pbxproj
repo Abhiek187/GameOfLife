@@ -15,6 +15,9 @@
 		252DAEF81F0E6C7F00646B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252DAEF61F0E6C7F00646B1F /* Main.storyboard */; };
 		252DAEFA1F0E6C7F00646B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252DAEF91F0E6C7F00646B1F /* Assets.xcassets */; };
 		252DAEFD1F0E6C7F00646B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252DAEFB1F0E6C7F00646B1F /* LaunchScreen.storyboard */; };
+		252DAF051F0E703800646B1F /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DAF041F0E703800646B1F /* MSButtonNode.swift */; };
+		252DAF071F0E8BCB00646B1F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DAF061F0E8BCB00646B1F /* Grid.swift */; };
+		252DAF091F0E8C7F00646B1F /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DAF081F0E8C7F00646B1F /* Creature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		252DAEF91F0E6C7F00646B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252DAEFC1F0E6C7F00646B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		252DAEFE1F0E6C7F00646B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252DAF041F0E703800646B1F /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		252DAF061F0E8BCB00646B1F /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grid.swift; path = ../Grid.swift; sourceTree = "<group>"; };
+		252DAF081F0E8C7F00646B1F /* Creature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				252DAEF91F0E6C7F00646B1F /* Assets.xcassets */,
 				252DAEFB1F0E6C7F00646B1F /* LaunchScreen.storyboard */,
 				252DAEFE1F0E6C7F00646B1F /* Info.plist */,
+				252DAF041F0E703800646B1F /* MSButtonNode.swift */,
+				252DAF061F0E8BCB00646B1F /* Grid.swift */,
+				252DAF081F0E8C7F00646B1F /* Creature.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -149,7 +158,10 @@
 			files = (
 				252DAEF31F0E6C7F00646B1F /* GameScene.swift in Sources */,
 				252DAEF51F0E6C7F00646B1F /* GameViewController.swift in Sources */,
+				252DAF091F0E8C7F00646B1F /* Creature.swift in Sources */,
 				252DAEED1F0E6C7F00646B1F /* AppDelegate.swift in Sources */,
+				252DAF071F0E8BCB00646B1F /* Grid.swift in Sources */,
+				252DAF051F0E703800646B1F /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

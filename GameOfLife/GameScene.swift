@@ -24,13 +24,13 @@ class GameScene: SKScene {
         /* Set up scene here */
         
         /* Connect UI scene objects */
-        playButton = self.childNode(withName: "playButton") as! MSButtonNode
-        pauseButton = self.childNode(withName: "pauseButton") as! MSButtonNode
-        stepButton = self.childNode(withName: "stepButton") as! MSButtonNode
-        populationLabel = self.childNode(withName: "populationLabel") as! SKLabelNode
-        generationLabel = self.childNode(withName: "generationLabel") as! SKLabelNode
+        playButton = self.childNode(withName: "playButton") as? MSButtonNode
+        pauseButton = self.childNode(withName: "pauseButton") as? MSButtonNode
+        stepButton = self.childNode(withName: "stepButton") as? MSButtonNode
+        populationLabel = self.childNode(withName: "populationLabel") as? SKLabelNode
+        generationLabel = self.childNode(withName: "generationLabel") as? SKLabelNode
         
-        gridNode = self.childNode(withName: "gridNode") as! Grid
+        gridNode = self.childNode(withName: "gridNode") as? Grid
         
         /* Setup testing button selected handler */
         stepButton.selectedHandler = {
@@ -74,7 +74,7 @@ class GameScene: SKScene {
         /* Called before each frame is rendered */
     }
     
-    func stepSimulation() {
+    @objc func stepSimulation() {
         /* Step simulation */
         
         /* Run next step in simulation */
